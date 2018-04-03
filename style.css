@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+    min-height: 815px;
+    /*min-width: ;*/
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    position: relative;
+    -webkit-overflow-scrolling: touch;
+    font-size: 14px;
+    line-height: 1.42857143;
+    /*background-color: #ffffff;*/
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    background: linear-gradient(to right,#7E0F4B, #1A5865);
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    box-sizing: border-box;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#header {
+    padding: 10em 0 10em 0;
+
+    background-size: 100% 100%;
+    height: 100%;
+    /*background: linear-gradient(303.69deg, #362B64 15%, #00B4B4 100%) no-repeat;*/
+    background: linear-gradient(303.69deg, #362B64 15%, #00B4B4 100%);
+
+    position: relative;
+}
+
+@media only screen and (max-width: 816px) {
+    #image {
+        display: none;
+    }
+}
+
+/*#image {*/
+/*background-image: url("png.png");*/
+/*background-size: 100% 100%;*/
+/*height: 50rem;*/
+/*width: 70rem;*/
+/*margin-left: 20%;*/
+/*margin-top: 5%;*/
+/*position: relative;*/
+/*}*/
+
+p {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    color: #362B64;
+    font-size: 2rem;
+    min-font-size: 2rem;
+    max-font-size: 2rem;
+
+}
+
+@media only screen and (max-width: 100px) {
+    #images {
+        float: left;
+    }
+}
+
+.container .images {
+    width: 50%;
+    height: 50%;
+
+    align-items: center;
+    justify-content: center;
+    padding-right: 8%;
+    padding-left: 8%;
+    overflow: hidden;
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+.container {
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-right: 20%;
+
+}
+
+#footer {
+    /*padding: 0.1em 0;*/
+    /*background: linear-gradient(303.69deg, #362B64 15%, #00B4B4 100%);*/
+    height: 12%;
+
+}
+
+@media only screen and (min-width: 992px) {
+    .container-new {
+        width: 960px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container-new {
+        width: 780px;
+    }
+}
+
+.container-new {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+    background-color: black;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+}
+
+#footer .company-details {
+    letter-spacing: 0.1em;
+    background-color: black;
+}
+
+#footer p {
+    color: #ffffff;
+    font-family: "ZonaPro Bold", serif;
+    letter-spacing: 0.3em;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 0.5em;
+    background-color: black;
+}
+
+p {
+    margin: 0 0 10px;
+    background-color: black;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    background-color: black;
+}
