@@ -4,45 +4,25 @@ import model.Client;
 import org.junit.Test;
 import repository.DataManager;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * *  Created by rares on 3/13/2018.
+ * *  Created by rares on 4/17/2018.
  */
 
 
-public class ClientControllerTest
+public class BigBangIntegration
 {
     private ClientController clientController;
 
-    private void testSuccessful(Client client)
+    @org.junit.Test
+    public void run()
     {
-        clientController = new ClientController();
-
-        int nr = clientController.getClients().size();
-
-        clientController.AddClient(client.Name, client.Address, client.idClient);
-
-        assertEquals(nr + 1, clientController.getClients().size());
+        addClient();
+        addClientIndex();
+        getClients();
     }
 
-//    private void testUnsuccessful(Student student)
-//    {
-//        dataManager = new StudentRepository("src/test/java/ssvv/students.txt");
-//        int nr = dataManager.findAll().size();
-//        clientController1 = new Controller(dataManager, null, null);
-//        try
-//        {
-//            clientController1.saveStudent(student);
-//            assertTrue(false);
-//        }
-//        catch (CustomException ex)
-//        {
-//            assertEquals(nr, dataManager.findAll().size());
-//        }
-//    }
-    
     @org.junit.Test
     public void addClient()
     {
@@ -80,6 +60,4 @@ public class ClientControllerTest
 
         assertTrue(clientController.getClients().size() == size);
     }
-
-
 }
