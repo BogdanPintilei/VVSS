@@ -1,1 +1,6 @@
-# VVSS_Lab2
+
+## **StoreInventory (SSVV)**
+
+> &copy; by Andrei Novac
+
+*Group 935*

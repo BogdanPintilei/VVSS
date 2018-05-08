@@ -1,0 +1,6 @@
+10 lapte aliment 144
+11 paine aliment 100
+12 laptop it 20
+13 portocala aliment 12
+14 ceapa aliment 20
+15 telefon it 50
